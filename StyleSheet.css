@@ -1,0 +1,54 @@
+﻿*{
+    font-family:'Trebuchet MS';
+    box-sizing:border-box;
+}
+
+
+body{
+    margin:5%;
+    min-height:10vh;
+}
+main {
+    max-width: 100%;
+    border:solid 2px black;
+    border-radius:0.8rem;
+}
+.nav_bar{
+    
+    padding:0.5rem;
+    
+}
+li {
+    display: inline-block;
+    padding: 0.5rem;
+    color: gray;
+}
+ .nav_bar .active{
+    color:black;
+    font-weight:700;
+}
+
+.info_container{
+    
+    padding:1rem 0;
+    position:relative;
+    min-height:100vh;
+    width:95%;
+    margin:1rem;
+
+}
+.tab {
+    color:white;
+    background-color:black;
+    padding:2.5rem 2rem;
+    border-radius:0.8rem;
+    text-align:center;
+    position:absolute;
+    top:2%;
+    width:100%;
+    opacity:0;
+    
+}
+.info_container .active{
+    opacity:1;
+}
