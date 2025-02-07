@@ -12,9 +12,10 @@ main {
     max-width: 100%;
     border:solid 2px black;
     border-radius:0.8rem;
+    
 }
 .nav_bar{
-    
+    cursor:pointer;
     padding:0.5rem;
     
 }
@@ -23,19 +24,23 @@ li {
     padding: 0.5rem;
     color: gray;
 }
- .nav_bar .active{
-    color:black;
-    font-weight:700;
+.nav_bar .active {
+    color: black;
+    font-weight: 700;
+    border-bottom: solid 2px black;
 }
 
 .info_container{
     
-    padding:1rem 0;
     position:relative;
-    min-height:100vh;
-    width:95%;
-    margin:1rem;
+    min-height:10vh;
+    width:90%;
+    margin:1.5rem;
 
+}
+.main_text {
+    margin: 1rem 1.5rem 0.5rem 1.5rem;
+    
 }
 .tab {
     color:white;
@@ -51,4 +56,6 @@ li {
 }
 .info_container .active{
     opacity:1;
+    
 }
+
